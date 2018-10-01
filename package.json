@@ -54,7 +54,7 @@
     "key_backup": [
       {
         "key": "ctrl+d",
-        "command": "extension.vim_ctrl+d",
+        "command": "extension.vim_ctrl+d_xx",
         "when": "editorTextFocus && vim.active && !inDebugRepl"
       },
       {
