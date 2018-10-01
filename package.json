@@ -51,18 +51,6 @@
         "title": "Vim: Show Command Line"
       }
     ],
-    "key_backup": [
-      {
-        "key": "ctrl+d",
-        "command": "extension.vim_ctrl+d_xx",
-        "when": "editorTextFocus && vim.active && !inDebugRepl"
-      },
-      {
-        "key": "ctrl+d",
-        "command": "list.focusPageDown",
-        "when": "listFocus && !inputFocus"
-      }
-    ],
     "keybindings": [
       {
         "key": "Escape",
@@ -313,11 +301,6 @@
         "key": "cmd+c",
         "command": "extension.vim_cmd+c",
         "when": "editorTextFocus && vim.active && vim.use<D-c> && vim.overrideCopy && !inDebugRepl"
-      },
-      {
-        "key": "cmd+d",
-        "command": "extension.vim_cmd+d",
-        "when": "editorTextFocus && vim.active && vim.use<D-d> && !inDebugRepl"
       },
       {
         "key": "cmd+v",

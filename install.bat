@@ -1,1 +1,1 @@
-code --install-extension vim-0.16.4.vsix
+code --uninstall-extension vscodevim.vim && code --install-extension vim-0.16.4.vsix

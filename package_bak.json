@@ -1,0 +1,19 @@
+{
+    "key_backup": [
+        {
+            "key": "cmd+d",
+            "command": "extension.vim_cmd+d",
+            "when": "editorTextFocus && vim.active && vim.use<D-d> && !inDebugRepl"
+        },
+        {
+            "key": "ctrl+d",
+            "command": "extension.vim_ctrl+d",
+            "when": "editorTextFocus && vim.active && !inDebugRepl"
+        },
+        {
+            "key": "ctrl+d",
+            "command": "list.focusPageDown",
+            "when": "listFocus && !inputFocus"
+        }
+    ]
+}
